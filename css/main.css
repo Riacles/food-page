@@ -1,0 +1,20 @@
+.logo{
+    height: 50px;
+    width:50px; 
+    border-radius: 50%;
+}
+
+/* .jumbo-bg{
+    background-image: url(../../food_website/images/landscape.svg);
+    size: 40%;
+} */
+a{
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 1.0em;
+    color: rgb(158, 158, 59);
+}
+
+.footer{
+    background-color: black;
+    padding: 10px;
+}
