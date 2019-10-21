@@ -1,3 +1,3 @@
 function notReady() {
-    document.write("This feature is not ready, check back later");
+    document.alert("This feature is not ready, check back later");
 }
