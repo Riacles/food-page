@@ -5,17 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>9ja dishes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../../bootstrap-4.3.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../../../bootstrap-4.3.1-dist/css/bootstrap.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css">
     <script src="../../bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+    <script src="../js/main.js"></script>
 </head>
 
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Food9ja</a>
+        <a class="navbar-brand" href=""> <img src="https://images.vexels.com/media/users/3/131080/isolated/preview/0f0866eb37895d74501edc38d1ff4f4d-hot-food-logo-by-vexels.png" width="60" height="60" alt="Food9ja"> </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -67,7 +68,7 @@
           <div class="card-body">
               <h5 class="card-title">Cake</h5>
               <p class="card-text">Fried ripe plantains and freshly blended sauce and fish fried until tasty. <span class="price"> &mdash;#500.00</span> </p>
-              <a href="#" class="btn btn-primary">I want</a>
+              <a href="" class="btn btn-primary" onClick="notReady">I want</a>
           </div>
         </div>
     </div>   
@@ -84,7 +85,9 @@
     </div>
   </div>
 </div>
-
+<div class="jumbotron">
+  <p class="text-center display-1">It is not just about the food, it is about your passion.</p>
+</div>
 <div class="sliding-menu">
     <div class="container-fluid">
             <h1 class="display-5 text-center">The Complete Classic Meal</h1>
@@ -95,7 +98,7 @@
                     <div class="card-body">
                     <h5 class="card-title">Chicken with fried plantains &mdash; <strong>new item!</strong></h5>
                     <p class="card-text">Tender chicken slow-roasted on the rotisserie, flavored with spicy and fragrant sauce, and served with fried plantains and fresh apple. <span class="price">#1000.00</span> </p>
-                    <a href="#" class="btn btn-primary">I want</a>
+                    <a href="#" class="btn btn-primary" onclick="notReady">I want</a>
                     </div>
                 </div>   
             </div>
@@ -105,7 +108,7 @@
                     <div class="card-body">
                     <h5 class="card-title">Ofada rice</h5>
                     <p class="card-text">Ofada rice served with my special ofada sauce (Skewers of shrimp marinated in lemongrass & fish sauce grilled to perfection) and fruit juice. <span class="price"> &mdash;#1000.00</span></p>
-                    <a href="#" class="btn btn-primary">I want</a>
+                    <a href="#" class="btn btn-primary" onclick="notReady">I want</a>
                     </div>
                 </div>   
             </div>
@@ -116,11 +119,32 @@
                     <h5 class="card-title">Iyan and Efo riro</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <br>
-                    <a href="#" class="btn btn-primary">I want</a>
+                    <a href="#" class="btn btn-primary" onclick="notReady">I want</a>
                 </div>  
             </div>
         </div>
 </div>
+
+<div class="jumbotron">
+  <p class="text-center display-2" >They that live long, eat good food</p>
+</div>
+
+<!-- I should put a sliding carousel  right here-->
+
+<div class="row">
+  <div class="col-md-6">
+    <form class="newsletter">
+      <p class="display-4">Join 5k+ foodies, know when we cook something hot</p>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <button type="submit" class="btn btn-secondary">Submit</button>
+      </form>
+    </div>
+</div>
+<br><br>
 <div class="container-fluid bg-dark footer">
     <p>Designed by <a href="mailto:richardthexus@gmail.com?subject=Collaboration Offer&body=Hi Threlaculis, I love your work and have an offer for you.">Threlaculis</a> 2019 
     </p> 
